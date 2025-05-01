@@ -31,8 +31,6 @@ This project analyzes customer reviews from Amazon products using Natural Langua
 
 1. **Preprocessing**: Clean the reviews by removing stop words, punctuation, etc.
 2. **Sentiment Scoring**: Use `TextBlob` to calculate polarity and classify sentiment.
-3. **Visualization**: Generate bar charts to show sentiment distribution.
-4. **Export**: Results can be saved as a CSV file for further analysis.
 5. **Web Interface**: Upload a review or a CSV file to get real-time predictions.
 
 ---
