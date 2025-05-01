@@ -17,8 +17,9 @@ This project analyzes customer reviews from Amazon products using Natural Langua
 
 ```
 ├── Amazon_Product_Sentiment_Analysis.ipynb  # Main notebook with sentiment logic
-├── app.py                                   # Flask app (if applicable)
-├── streamlit_app.py                         # Streamlit version
+├── flask_app.py                             # Flask app
+├── streamlit_app.py                         # Streamlit app
+├── sentiment_model.p                        # model
 ├── requirements.txt                         # Python dependencies
 ├── templates/                               # HTML templates (for Flask)
 └── README.md
