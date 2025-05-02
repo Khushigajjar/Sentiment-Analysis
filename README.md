@@ -35,28 +35,54 @@ This project analyzes customer reviews from Amazon products using Natural Langua
 
 ---
 
+
 ## 💻 Installation
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/amazon-sentiment-analysis.git
-cd amazon-sentiment-analysis
-```
+1. **Clone the repository**  
+   Clone the project from GitHub and navigate into the project directory.
+   ```bash
+   git clone https://github.com/Khushigajjar/Sentiment-Analysis.git
+   cd amazon-sentiment-analysis
+   ```
 
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
+2. **Create and activate a virtual environment**  
+   Set up a virtual environment to manage dependencies.
 
-3. **Run Streamlit App**
-```bash
-streamlit run streamlit_app.py
-```
+   - **Create virtual environment**  
+     ```bash
+     python -m venv venv
+     ```
 
-4. **Or Run Flask App**
-```bash
-python app.py
-```
+   - **Activate it:**
+
+     - **Windows:**
+       ```bash
+       venv\Scripts\activate
+       ```
+
+     - **macOS/Linux:**
+       ```bash
+       source venv/bin/activate
+       ```
+
+3. **Install dependencies**  
+   Install all required packages using the `requirements.txt` file.
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run Streamlit App**  
+   Launch the Streamlit web application.
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+
+5. **Or Run Flask App**  
+   Launch the Flask web application.
+   ```bash
+   python app.py
+   ```
+
 
 ---
 
